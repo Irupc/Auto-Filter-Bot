@@ -34,9 +34,9 @@ async def filter(client: Bot, message: Message):
         async for msg in client.USER.search_messages(MAINCHANNEL_ID,query=message.text,filter='document'):
             file_name = msg.document.file_name
             msg_id = msg.message_id                     
-            link = "https://irupc.net/"+msg.link.split("/")[4]
+            link = msg.link
             btn.append(
-                [InlineKeyboardButton(text=f"{file_name}",url=f"{link}")]
+                [InlineKeyboardButton(text=f"{msg_id}",url=f"{link}")]
             )
 
         if not btn:
