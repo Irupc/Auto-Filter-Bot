@@ -14,23 +14,23 @@
     "env": {
         "TG_BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
-            "value": ""
+            "value": "1822577927:AAEaAtiPqq8uBv9TRDt26fFSbawjTitbi0U"
         },
         "API_HASH": {
             "description": "Your API Hash from my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "fbc8918eed3b68ccfd80283cf53db785"
         },
         "APP_ID": {
             "description": "Your APP ID from my.telegram.org or @UseTGXBot",
-            "value": ""
+            "value": "3206260"
         },
         "TG_USER_SESSION": {
             "description": "A pyrogram user session string. Generate from https://repl.it/@SpEcHiDe/GenerateStringSession",
-            "value": ""
+            "value": "BQCuDkI56spjFS7tRoCrKcKBoylPMX8BqtF_8naa0cRcOcHYP_XzAJADeQ4_rlyiKJUj37ZVArGt3NUgu-hk5rJduYKIMqCfMo8C1Jw2R6xNHIyC_QGKVKQ0hBfSawP7WNUY-GbQFvLKLqvPNC6vY-sFTV0XpfklyRIEF_gMNCZAgTSColpTNiFNTo0OXds_76qiOJKS8aNvZZBsv-AJlibNoSLwpSb7xACPeTC61p7y5B8Bz4B8TXueKZwmBkDeicM-_T72_oQM2L9lL54SAzSubwSiGGlA-As1-XpcfykyIAqQgJpckIJHNK1xjpOtqO-JsUE8IZH5661E_Dl1nIQrZS2DfgA"
         },
         "MAINCHANNEL_ID": {
             "description": "ID of Channel from which the bot should search files",
-            "value": ""
+            "value": "-1001359244042"
         }
     },
     "buildpacks": [
